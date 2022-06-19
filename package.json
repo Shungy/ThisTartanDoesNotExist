@@ -1,0 +1,24 @@
+{
+  "name": "ThisTartanDoesNotExist",
+  "version": "1.0.0",
+  "description": "Source code for the NFT art collection deployed on Avalanche blockchain",
+  "main": ".eslintrc.js",
+  "scripts": {
+    "compile": "export LANG=C && npx hardhat compile",
+    "node": "export LANG=C && npx hardhat node",
+    "test": "export LANG=C && npx hardhat test"
+  },
+  "author": "Shung",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.2",
+    "@nomiclabs/hardhat-waffle": "^2.0.1",
+    "dotenv": "^10.0.0",
+    "ethereum-waffle": "^3.4.0",
+    "ethers": "^5.5.1",
+    "hardhat": "^2.7.0"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.4.0"
+  }
+}
